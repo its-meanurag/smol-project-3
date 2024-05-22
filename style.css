@@ -1,0 +1,283 @@
+*
+{
+margin:0%;
+padding:0%;
+box-sizing:border-box;
+}
+html,body{
+width:100%;
+height:100%;
+}
+body{
+    font-family:Helvetica;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.main{
+    width: 80%;
+    height: 80%;
+    border: 1px solid white;
+    /* border-radius: 50px; */
+    display: flex;
+    position: absolute;
+
+}
+.left-box{
+    height: 100%;
+    width: 70%;
+    border-right: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:start;
+    gap: 20px;
+    position: relative;
+    background-color: white;
+    opacity: 0.9;
+}
+.left-box>.logo{
+    width: 90%;
+    height: 15%;
+  
+    padding-left: 25px;
+   
+    
+}
+.logo>img{
+    width: 10%;
+    height: 100%;
+    object-fit: contain;
+    object-position: center;
+}
+.heading{
+    width: 90%;
+    height: 10%;
+    padding-left: 25px;
+
+
+     
+    
+}
+.heading>h2{
+    font-size: 240%;
+}
+.dish1,.dish2{
+    width: 90%;
+    height: 25%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+    position: relative;
+    
+}
+.image{
+    width: 30%;
+    height: 90%;
+    border: 1px solid black;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+
+}
+.image>.bgcolor{
+    width: 100%;
+    height: 90%;
+    background-color: yellow;
+
+}
+.dish1>img{
+    width: 25%;
+    height: 100%;
+    /* box-shadow: 0px 0px 20px grey; */
+    
+ 
+    object-fit: contain;
+    
+    border-radius: 100%;
+   
+
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    height: 90%;
+    padding-left: 10px;
+    
+    width: 45%;
+    
+}
+.content>h3{
+    font-size: 130%;
+}
+.content>p{
+    color: grey;
+    font-weight: 500;
+}
+.dish1>.price{
+    width: 8%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+    
+}
+.quantities{
+    width: 8%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 0px 0px 10px rgb(200, 197, 197);
+}
+.cross{
+    width: 8%;height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: 0px 0px 10px rgb(200, 197, 197);
+    align-items: center;
+}
+.dish2>img{
+    width: 24%;
+    height: 100%;
+    /* box-shadow: 0px 0px 20px grey; */
+    
+ 
+    object-fit: contain;
+    
+   
+   
+
+}
+.subtotal{
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+    height: 2%;
+    border-top: 1px solid grey;
+    position: absolute;
+    top: 90%;
+    left: 9%;
+}
+.right-box{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    background-color: black;
+    opacity: 0.8;
+}
+.payment,.checkbox,.slider{
+    width: 80%;
+    height: 10%;
+    /* border: 1px solid white; */
+    color: white;
+}
+.payment>h2{
+    font-size: 200%;
+}
+.checkbox{
+    display: flex;
+    flex-direction: column;
+}
+.uper,.niche{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content:start;
+    gap: 10px;
+    align-items: center;
+}
+.slider{
+    height: 10%;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    border: 1px solid white;
+}
+.slider>.paypal,.slider>.gpay{
+    width: 50%;
+    height: 100%;
+}
+.gpay{
+    width: 30%;
+    height: 100%;
+    border-left: 1px solid white;
+    /* background-color: white\; */
+}
+.paypal{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.paypal>img{
+    width: 100%;
+    height: 80%;
+    object-fit: cover;
+}
+.gpay>img{
+    width: 90%;
+    height: 100%;
+    object-fit: cover;
+}
+.credentials{
+    width: 80%;
+    height: 30%;
+    /* border: 1px solid white; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+}
+.name{
+    width: 100%;
+    height: 20%;
+    border: none;
+    border-bottom: 1px solid grey;
+    background-color: transparent   ;
+}
+.date,.cvv{
+    border: none;
+    border-bottom: 1px solid grey;
+    background-color: transparent;
+}
+.second-line{
+    width: 100%;
+    height: 15%;
+    display: flex;
+    gap: 10px;
+
+}
+.cvv{
+    width: 35%;
+    height: 100%;
+}
+.button{
+    width: 80%;
+    height: 10%;
+}
+button{
+    width: 40%;
+    height: 100%;
+    border: white;
+    background-color: rgb(247, 247, 95);
+}
